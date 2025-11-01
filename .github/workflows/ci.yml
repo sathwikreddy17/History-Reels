@@ -1,0 +1,91 @@
+name: Myth Factory CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9, '3.10', '3.11']
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Create environment file
+      run: |
+        cp .env.example .env
+
+    - name: Test imports
+      run: |
+        python -c "
+        try:
+            from process_stories import validate_environment, get_pending_stories
+            print('✅ Core functions imported successfully')
+        except Exception as e:
+            print(f'❌ Import error: {e}')
+            exit(1)
+        "
+
+    - name: Check code style
+      run: |
+        pip install flake8
+        # Stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # Treat all other issues as warnings
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Test directory structure
+      run: |
+        python -c "
+        from pathlib import Path
+        required_dirs = ['input', 'input/stories', 'input/images', 'content', 'renders', 'assets']
+        for dir_name in required_dirs:
+            path = Path(dir_name)
+            if not path.exists():
+                print(f'❌ Missing directory: {dir_name}')
+                exit(1)
+        print('✅ All required directories exist')
+        "
+
+  security:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Check for secrets in code
+      run: |
+        # Check that .env is gitignored
+        if git check-ignore .env; then
+          echo "✅ .env is properly gitignored"
+        else
+          echo "❌ .env should be in .gitignore"
+          exit 1
+        fi
+
+        # Check for accidental API key commits
+        if grep -r "sk-" --exclude="*.md" --exclude=".env.example" . || grep -r "api[_-]key.*=" --exclude="*.md" --exclude=".env.example" .; then
+          echo "❌ Potential API keys found in repository"
+          exit 1
+        else
+          echo "✅ No API keys found in repository"
+        fi

@@ -1,0 +1,11 @@
+id,title,description,language,status
+1,Karna's Curse,Why Karna was cursed by Parashurama,en,error:Error code: 401 - {'error': {'message': 
+2,Ganga's Vow,How and why Ganga left heaven,en,error:Could not find a backend to open `/Users
+3,Icarus and the Wax Wings,The tale of hubris and falling from grace,en,error:module 'PIL.Image' has no attribute 'ANT
+4,Pandora's Box,The release of evils into the world,en,error:cannot write mode RGBA as JPEG
+5,Perseus and Medusa,The hero's quest to slay the Gorgon,en,error:Error in file /Users/sathwikreddy/Projec
+6,Theseus and the Minotaur,Navigating the labyrinth to face the beast,en,error:'AudioFileClip' object has no attribute 
+7,Orpheus in the Underworld,A musician's journey to bring back his love,en,done
+8,The Golden Fleece,Jason's impossible quest with the Argonauts,en,done
+9,Hercules' Twelve Labors,The hero's path to redemption,en,done
+10,The Trojan Horse,The greatest deception in ancient warfare,en,done

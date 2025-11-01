@@ -1,0 +1,19 @@
+# Myth Factory - AI Instagram Reels Generator
+# Core dependencies for story-to-video processing
+
+# AI & API Libraries
+openai>=1.37.0             # GPT-4o-mini for script generation
+requests>=2.32.0           # HTTP requests for APIs
+
+# Video Processing
+moviepy==1.0.3             # Video editing and effects
+imageio>=2.31.0            # Image processing support
+imageio-ffmpeg>=0.4.8      # FFmpeg backend for MoviePy
+
+# Utilities
+python-dotenv>=1.0.1       # Environment variable management
+
+# Optional Dependencies (install if needed)
+# python-docx>=0.8.11      # For reading .docx story files
+# Pillow>=9.5.0            # Enhanced image processing
+# tqdm>=4.65.0             # Progress bars for long operations
