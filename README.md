@@ -1,4 +1,16 @@
-# � Myth Factory - AI-Powered Instagram Reels Generator
+# 🎬 History Reels - AI-Powered Instagram Reels Generator
+
+**Transform your ancient history stories into professional Instagram Reels using AI**
+
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![OpenAI GPT-4o](https://img.shields.io/badge/AI-GPT--4o--mini-green.svg)](https://openai.com)
+[![ElevenLabs TTS](https://img.shields.io/badge/Voice-ElevenLabs-purple.svg)](https://elevenlabs.io)
+
+---
+
+## 🎯 **What It Does**
+
+History Reels automatically converts your stories into engaging 60-second Instagram Reels:ory - AI-Powered Instagram Reels Generator
 
 **Transform your mythology stories into professional Instagram Reels using AI**
 

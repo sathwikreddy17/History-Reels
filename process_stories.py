@@ -1,6 +1,6 @@
 """
-Myth Factory - AI-Powered Instagram Reels Generator
-==================================================
+History Reels - AI-Powered Instagram Reels Generator
+====================================================
 
 Transforms user-provided stories into professional Instagram Reels using:
 - OpenAI GPT-4o-mini for script generation
@@ -166,7 +166,7 @@ def create_script_from_story(story_content: str, story_name: str) -> str:
     """Convert full story into 60-second Instagram Reel script"""
     
     prompt = f"""
-You are a master storyteller creating engaging 60-second Instagram Reels about mythology and spiritual stories.
+You are a master storyteller creating engaging 60-second Instagram Reels about ancient history and cultural stories.
 
 Convert this story into a captivating 60-second script for an Instagram Reel:
 
@@ -444,7 +444,7 @@ def create_video(story_file: Path):
 def main():
     """Main function to process all pending stories into Instagram Reels."""
     
-    logging.info("🚀 Starting Myth Factory - AI Instagram Reels Generator")
+    logging.info("🚀 Starting History Reels - AI Instagram Reels Generator")
     
     # Validate environment before starting
     if not validate_environment():

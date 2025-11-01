@@ -1,10 +1,10 @@
-# Contributing to Myth Factory
+# Contributing to History Reels
 
-Thank you for your interest in contributing to Myth Factory! This project aims to make mythology accessible through engaging AI-generated video content.
+Thank you for your interest in contributing to History Reels! This project aims to make ancient history accessible through engaging AI-generated video content.
 
 ## 🎯 Project Vision
 
-Myth Factory democratizes high-quality content creation by allowing anyone to transform written mythology stories into professional Instagram Reels using AI assistance.
+History Reels democratizes high-quality content creation by allowing anyone to transform written historical stories into professional Instagram Reels using AI assistance.
 
 ## 🚀 How to Contribute
 
@@ -15,7 +15,7 @@ Myth Factory democratizes high-quality content creation by allowing anyone to tr
 - Direct social media integration
 
 ### 2. **Content & Assets**
-- High-quality mythology artwork
+- High-quality ancient history artwork
 - Background music compositions
 - Story templates and examples
 - Voice settings optimization
@@ -37,14 +37,14 @@ Myth Factory democratizes high-quality content creation by allowing anyone to tr
 1. **Fork the repository**
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/yourusername/myth-factory.git
-   cd myth-factory
+   git clone https://github.com/yourusername/history-reels.git
+   cd history-reels
    ```
 
 3. **Set up environment**:
    ```bash
-   python -m venv myth-factory-env
-   source myth-factory-env/bin/activate  # On Windows: myth-factory-env\Scripts\activate
+   python -m venv history-reels-env
+   source history-reels-env/bin/activate  # On Windows: history-reels-env\Scripts\activate
    pip install -r requirements.txt
    ```
 
@@ -85,7 +85,7 @@ Myth Factory democratizes high-quality content creation by allowing anyone to tr
 
 ### **Images**
 - High resolution (1080p+)
-- Mythology/spiritual themes
+- Ancient history/cultural themes
 - Public domain or Creative Commons licensed
 - Diverse cultural representation
 
@@ -185,4 +185,4 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 ---
 
-Thank you for helping make mythology more accessible through technology! 🏛️✨
+Thank you for helping make ancient history more accessible through technology! 🏛️✨

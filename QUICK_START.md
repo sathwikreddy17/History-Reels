@@ -1,11 +1,11 @@
-# Myth Factory - Quick Start Guide
+# History Reels - Quick Start Guide
 
 ## 🚀 **Getting Started in 3 Steps**
 
 ### **Step 1: Setup (One-time)**
 ```bash
-cd myth-factory
-source myth-factory-env/bin/activate  # Activate Python environment
+cd history-reels
+source history-reels-env/bin/activate  # Activate Python environment
 ```
 
 ### **Step 2: Add Your Content**
@@ -69,13 +69,13 @@ ELEVEN_MODEL=eleven_multilingual_v2
 ### **For Stories:**
 - ✅ Any length (system adapts to 60-second script)
 - ✅ Rich, descriptive content works best
-- ✅ Mythology, spiritual stories, legends perform well
+- ✅ Ancient history, cultural stories, legends perform well
 - ✅ Use `.txt` format (`.docx` supported but requires extra package)
 
 ### **For Images:**
 - ✅ High resolution (1080p+ recommended)
 - ✅ 2-8 images per story (optimal: 4-6 images)
-- ✅ Mythology-themed, story-relevant visuals
+- ✅ Ancient history-themed, story-relevant visuals
 - ✅ Supported formats: `.jpg`, `.jpeg`, `.png`, `.webp`
 
 ### **For Naming:**
@@ -144,7 +144,7 @@ ELEVEN_MODEL=eleven_multilingual_v2
 
 ## 🚀 **Tips for Best Results**
 
-1. **Use high-quality, mythology-themed images**
+1. **Use high-quality, ancient history-themed images**
 2. **Write rich, descriptive stories with visual elements**
 3. **Keep one story per processing run (clean input folders)**
 4. **Use consistent naming between story file and image folder**
@@ -152,4 +152,4 @@ ELEVEN_MODEL=eleven_multilingual_v2
 
 ---
 
-*Ready to create amazing mythology reels? Just add your story and images, then run the script!*
+*Ready to create amazing history reels? Just add your story and images, then run the script!*

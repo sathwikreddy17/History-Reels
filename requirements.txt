@@ -1,4 +1,4 @@
-# Myth Factory - AI Instagram Reels Generator
+# History Reels - AI Instagram Reels Generator
 # Core dependencies for story-to-video processing
 
 # AI & API Libraries

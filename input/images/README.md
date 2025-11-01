@@ -29,10 +29,10 @@ images/
 - **Formats**: `.jpg`, `.jpeg`, `.png`, `.webp`
 - **Quantity**: 2-8 images per story (optimal: 4-6)
 - **Quality**: High resolution recommended (1080p+)
-- **Content**: Mythology-themed, story-relevant visuals
+- **Content**: Ancient history-themed, story-relevant visuals
 
 ## Tips for Best Results
-- Use high-quality, mythology-themed artwork
+- Use high-quality, ancient history-themed artwork
 - Include character portraits and scene imagery
 - Avoid modern or irrelevant stock photos
 - Consider the story flow when selecting images

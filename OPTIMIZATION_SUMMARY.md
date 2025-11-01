@@ -171,6 +171,6 @@ The system is now **production-ready** with:
 
 ---
 
-**The Myth Factory is now a polished, professional tool ready for creating amazing mythology content! 🎬✨**
+**The History Reels is now a polished, professional tool ready for creating amazing historical content! 🎬✨**
 
 *All optimizations completed on November 1, 2025*

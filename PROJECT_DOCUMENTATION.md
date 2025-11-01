@@ -1,8 +1,8 @@
-# Myth Factory - AI-Powered Instagram Reels Generator
+# History Reels - AI-Powered Instagram Reels Generator
 
 ## 🎯 **Project Overview**
 
-**Myth Factory** is an automated system that transforms user-provided mythology and spiritual stories into professional Instagram Reels (1080x1920, 60-second videos) using AI script generation, text-to-speech, and image-based video creation.
+**History Reels** is an automated system that transforms user-provided ancient history and cultural stories into professional Instagram Reels (1080x1920, 60-second videos) using AI script generation, text-to-speech, and image-based video creation.
 
 ### **Key Capabilities:**
 - ✅ Convert any length story into engaging 60-second Instagram Reel scripts
@@ -24,7 +24,7 @@
 
 ### **File Structure:**
 ```
-myth-factory/
+history-reels/
 ├── process_stories.py          # Main processor (NEW SYSTEM)
 ├── main.py                     # Legacy system with Pexels API
 ├── .env                        # API keys and configuration
@@ -59,8 +59,8 @@ myth-factory/
 
 ### **Step 2: Run the System**
 ```bash
-cd myth-factory
-source myth-factory-env/bin/activate  # Activate virtual environment
+cd history-reels
+source history-reels-env/bin/activate  # Activate virtual environment
 python process_stories.py             # Process all new stories
 ```
 
@@ -146,7 +146,7 @@ ELEVEN_MODEL=eleven_multilingual_v2
 - Generic video generation
 
 ### **Phase 2: Problem Identification**
-- **Issue**: Pexels generated generic stock footage unrelated to mythology
+- **Issue**: Pexels generated generic stock footage unrelated to ancient history
 - **Example**: "Perseus and Medusa" → Generic business meeting videos
 - **Impact**: Poor content quality, no story relevance
 
@@ -156,7 +156,7 @@ ELEVEN_MODEL=eleven_multilingual_v2
   - Perfect story-image alignment
   - User creative control
   - Higher content quality
-  - Mythology-specific visuals
+  - History-specific visuals
 
 ### **Phase 4: Smart Automation**
 - **Features Added**:

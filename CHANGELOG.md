@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Myth Factory will be documented in this file.
+All notable changes to History Reels will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -68,7 +68,7 @@ This is a complete redesign from generic stock footage to user-curated content.
 
 ## [1.0.0] - 2025-10-31
 
-### 🎬 Initial Release - Automated Mythology Video Generator
+### 🚀 Initial Release - Automated Ancient History Video Generator
 
 #### Added
 - **AI Script Generation**: OpenAI GPT-4o-mini integration for story adaptation
@@ -82,12 +82,12 @@ This is a complete redesign from generic stock footage to user-curated content.
 
 #### Features
 - Automated daily video generation
-- Mythology-focused content creation
+- Ancient history-focused content creation
 - Professional audio and video quality
 - Configurable voice and video settings
 
 #### Known Issues
-- Generic stock footage often unrelated to mythology content
+- Generic stock footage often unrelated to historical content
 - Limited user control over visual content
 - Inconsistent video quality due to random footage selection
 

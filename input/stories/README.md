@@ -15,7 +15,7 @@ You can name your files however you like:
 ## Content Guidelines
 - Any length story (system adapts to 60-second format)
 - Rich, descriptive content works best
-- Mythology, spiritual stories, legends perform well
+- Ancient history, cultural stories, legends perform well
 - Visual storytelling elements enhance results
 
 ## Example Stories

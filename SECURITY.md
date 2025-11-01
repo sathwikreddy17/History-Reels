@@ -9,7 +9,7 @@
 
 ## Reporting a Vulnerability
 
-The Myth Factory team takes security seriously. If you discover a security vulnerability, please follow these guidelines:
+The History Reels team takes security seriously. If you discover a security vulnerability, please follow these guidelines:
 
 ### 🔒 **How to Report**
 
@@ -17,7 +17,7 @@ The Myth Factory team takes security seriously. If you discover a security vulne
 
 Instead, please:
 
-1. **Email**: Send details to `security@mythfactory.dev` (if applicable) or
+1. **Email**: Send details to `security@historyreels.dev` (if applicable) or
 2. **GitHub Security**: Use GitHub's private security advisory feature
 3. **Direct Contact**: Contact the maintainers through GitHub direct message
 
@@ -60,8 +60,8 @@ Please provide:
 ### **Environment Security**
 ```bash
 # Use virtual environments
-python -m venv myth-factory-env
-source myth-factory-env/bin/activate
+python -m venv history-reels-env
+source history-reels-env/bin/activate
 
 # Keep dependencies updated
 pip install --upgrade -r requirements.txt
@@ -128,4 +128,4 @@ For security-related questions or concerns:
 - **Issues**: For non-sensitive security discussions
 - **Community**: General security best practices discussions
 
-Thank you for helping keep Myth Factory secure! 🛡️
+Thank you for helping keep History Reels secure! 🛡️
