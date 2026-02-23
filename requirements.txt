@@ -1,19 +1,25 @@
-# History Reels - AI Instagram Reels Generator
-# Core dependencies for story-to-video processing
+# Reels Factory — dependency list
+# Install with: pip install -r requirements.txt
 
-# AI & API Libraries
-openai>=1.37.0             # GPT-4o-mini for script generation
-requests>=2.32.0           # HTTP requests for APIs
+# ── Core ──────────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.1          # .env file loading
+requests>=2.32.0              # HTTP (ElevenLabs API)
 
-# Video Processing
-moviepy==1.0.3             # Video editing and effects
-imageio>=2.31.0            # Image processing support
-imageio-ffmpeg>=0.4.8      # FFmpeg backend for MoviePy
+# ── LLM / Script generation ───────────────────────────────────────────────────
+openai>=1.37.0                # used for BOTH OpenAI API and LM Studio local server
+                              # (LM Studio exposes an OpenAI-compatible endpoint)
 
-# Utilities
-python-dotenv>=1.0.1       # Environment variable management
+# ── TTS / Voiceover ───────────────────────────────────────────────────────────
+kokoro==0.7.16                # local TTS — Python 3.9 compatible build
+soundfile>=0.12.1             # WAV I/O for Kokoro output
 
-# Optional Dependencies (install if needed)
-# python-docx>=0.8.11      # For reading .docx story files
-# Pillow>=9.5.0            # Enhanced image processing
-# tqdm>=4.65.0             # Progress bars for long operations
+# ── Video processing ─────────────────────────────────────────────────────────
+moviepy==1.0.3                # video editing
+imageio==2.31.6               # image I/O backend for MoviePy
+imageio-ffmpeg==0.4.9         # FFmpeg backend for imageio
+Pillow>=10.0.0                # image loading, cover-crop, LANCZOS resize
+numpy>=1.24.0                 # array operations for Ken Burns effect
+scipy>=1.10.0                 # audio processing (used by MoviePy)
+
+# NOTE: FFmpeg must be installed system-wide.
+# macOS: brew install ffmpeg

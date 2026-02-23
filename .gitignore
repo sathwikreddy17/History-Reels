@@ -79,10 +79,10 @@ logs/
 *.tmp
 *.temp
 
-# Generated content (optional - uncomment if you don't want to share)
-# content/scripts/
-# content/voiceovers/
-# renders/
+# Generated content — too large / private for git
+renders/
+content/voiceovers/
+content/scripts/
 
 # Large asset files (optional - uncomment if assets are too large)
 # assets/music/*.mp3
@@ -92,8 +92,10 @@ logs/
 input/stories/*.txt
 input/stories/*.docx
 input/images/*/
+input/topics/*.txt
 !input/stories/.gitkeep
 !input/images/.gitkeep
+!input/topics/.gitkeep
 
 # Sample/example files to keep
 !input/stories/README.md
